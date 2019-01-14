@@ -1805,6 +1805,9 @@ au BufNewFile,BufRead *.web
 " Windows Scripting Host and Windows Script Component
 au BufNewFile,BufRead *.ws[fc]			setf wsh
 
+" Xilinx Design Constraints
+au BufNewFile,BufRead *.xdc			setf xdc
+
 " XHTML
 au BufNewFile,BufRead *.xhtml,*.xht		setf xhtml
 
